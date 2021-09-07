@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+}
+body {
+    height: 90%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(hsl(360, 72%, 65%), #9198e5);
+}
+
+.main-container {
+    
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.heading {
+    margin-top: 5rem;
+}
+
+.label {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.input {
+    margin: 1rem auto;
+    display: block;
+    text-align: center;
+    width: 12rem;
+    height: 2rem;
+    border: 2px solid;
+    border-radius: 2rem;
+    font-size: 1rem;
+    padding: 0.3rem;
+}
+
+#check-number {
+    border-radius: 2rem;
+    border: 2px solid black; 
+    padding: 0.7rem;
+    font-size: 1rem;
+    background-color: #9297E2;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+#output {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+} 
